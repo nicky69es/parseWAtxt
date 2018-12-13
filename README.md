@@ -1,4 +1,4 @@
-# parseWAtxt
+# parseWAtxtToScreen
 Create a report with the contents of WhatsApp conversations extracted in .txt files
 
 Este programa crea un informe con el contenido de los archivos "txt" que crea la extracción de las conversaciones en Whatsapp.
@@ -6,7 +6,7 @@ Busca los archivos de conversaciones dentro de un directorio, calcula su hash sh
   
 Cada uno puede adaptarlo a sus necesidades incluyendo librerías de docx o pdf para obtener un informe con mejor presentación que pueda incluir las imágenes adjuntas en las conversaciones.
 
-Está realizado para utf-8, por lo que puede dar problemas con otras codificaciones de texto.
+Genera el informe en pantalla, debes redirigir para obtenerlo en fichero.
 
 PROCESO PARA EXTRAER LAS CONVERSACIONES DE WA CUANDO UNA HERRAMIENTA FORENSE NO PUEDE.
 
@@ -54,6 +54,10 @@ Leer los archivos txt de el zip creado.
 Está abierto a mejoras. Preferiria que las mejoras fueran sin necesidad de modulos que sea necesario instalar en el equipo.
 
 Mejoras de última versión:
-Ya le puedes pasar como parámetro al script el directorio donde se encuentran los txt, y generará el informe allí. Si no pasas ningún parámetro trabaja en el directorio actual.
+Le puedes pasar como parámetro al script el directorio donde se encuentran los txt, y generará el informe a pantalla. Si no pasas ningún parámetro trabaja en el directorio actual.
 
-Ejemplo de uso: python parseWAtxt.py directorio_de_los_txt
+Ejemplo de uso: python parseWAtxtToScreen.py directorio_de_los_txt
+
+Para obtener el informe en un fichero redirigir.
+
+Ejemplo de uso: python parseWAtxtToScreen.py directorio_de_los_txt ruta/nombre_fichero_informe.txt
