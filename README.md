@@ -9,7 +9,7 @@ Está realizado para utf-8, por lo que puede dar problemas con otras codificacio
 
 #PROCESO PARA EXTRAER LAS CONVERSACIONES DE WA CUANDO UNA HERRAMIENTA FORENSE NO PUEDE.
 
-#METODO 1
+# METODO 1
 (Testado en Galaxy S9+ con Android 8.0.0 y parche de seguridad de nov18)
 
 Con el terminal encendido: Paso 1: Abrir whatsapp e ir a "Ajustes > Chats > Historial de Chats" Paso 2: "Exportar chat" Paso 3: Seleccionar una conversación activa. Paso 4: En caso de que nos pregunte sobre incluir archivos multimedia, responder según interés. Paso 5: Al salir el modo de exportación (BT, Mail, etc), NO SELECCIONAR NINGUNO!. Paso 6: Volver al paso 2 y seleecionar la siguiente conversación en el paso 3, hasta hacerlo con todas las conversaciones que nos interese extraer. SOLO CUANDO HAYAMOS FINALIZADO DE EXPORTAR CONVERSACIONES Paso 7: Conectar cable OTG y pendrive USB al terminal. Paso 8: A través del navegador de archivos del propio terminal, copiar la carpeta "WhatsAPP" y pegarla en nuestro USB.
