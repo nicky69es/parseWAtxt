@@ -43,4 +43,4 @@ Ejemplo de uso: python parseWAtxtToScreen.py directorio_de_los_txt
 
 Para obtener el informe en un fichero redirigir.
 
-Ejemplo de uso: python parseWAtxtToScreen.py directorio_de_los_txt ruta/nombre_fichero_informe.txt
+Ejemplo de uso: python parseWAtxtToScreen.py directorio_de_los_txt >> ruta/nombre_fichero_informe.txt
