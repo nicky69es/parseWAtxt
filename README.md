@@ -7,7 +7,7 @@ Cada uno puede adaptarlo a sus necesidades incluyendo librerías de docx o pdf p
 
 Está realizado para utf-8, por lo que puede dar problemas con otras codificaciones de texto.
 
-#PROCESO PARA EXTRAER LAS CONVERSACIONES DE WA CUANDO UNA HERRAMIENTA FORENSE NO PUEDE.
+# PROCESO PARA EXTRAER LAS CONVERSACIONES DE WA CUANDO UNA HERRAMIENTA FORENSE NO PUEDE.
 
 # METODO 1
 (Testado en Galaxy S9+ con Android 8.0.0 y parche de seguridad de nov18)
