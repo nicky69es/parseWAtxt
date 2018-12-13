@@ -7,9 +7,10 @@ Cada uno puede adaptarlo a sus necesidades incluyendo librerías de docx o pdf p
 
 Está realizado para utf-8, por lo que puede dar problemas con otras codificaciones de texto.
 
-PROCESO PARA EXTRAER LAS CONVERSACIONES DE WA CUANDO UNA HERRAMIENTA FORENSE NO PUEDE.
+#PROCESO PARA EXTRAER LAS CONVERSACIONES DE WA CUANDO UNA HERRAMIENTA FORENSE NO PUEDE.
 
-METODO 1 (Testado en Galaxy S9+ con Android 8.0.0 y parche de seguridad de nov18)
+#METODO 1
+(Testado en Galaxy S9+ con Android 8.0.0 y parche de seguridad de nov18)
 
 Con el terminal encendido: Paso 1: Abrir whatsapp e ir a "Ajustes > Chats > Historial de Chats" Paso 2: "Exportar chat" Paso 3: Seleccionar una conversación activa. Paso 4: En caso de que nos pregunte sobre incluir archivos multimedia, responder según interés. Paso 5: Al salir el modo de exportación (BT, Mail, etc), NO SELECCIONAR NINGUNO!. Paso 6: Volver al paso 2 y seleecionar la siguiente conversación en el paso 3, hasta hacerlo con todas las conversaciones que nos interese extraer. SOLO CUANDO HAYAMOS FINALIZADO DE EXPORTAR CONVERSACIONES Paso 7: Conectar cable OTG y pendrive USB al terminal. Paso 8: A través del navegador de archivos del propio terminal, copiar la carpeta "WhatsAPP" y pegarla en nuestro USB.
 
@@ -19,7 +20,9 @@ La carpeta que hemos copiado contiene 4 carpetas:
 ".trash" desconozco al encontrarla sin contenido.
 "Databases" contiene una copia de la msgstore.db.crypt. Sin key.
 "Media" contiene los archivos multimedia separados en carpetas por tipo, así como Wallpapers y Statuses
-METODO 2 (Testado en BQ Aquaris M5 y Android 7)
+
+# METODO 2
+(Testado en BQ Aquaris M5 y Android 7)
 
 Con el terminal encendido: Paso 1: Abrir whatsapp e ir a "Ajustes > Chats > Historial de Chats" Paso 2: "Exportar chat" Paso 3: Seleccionar una conversación activa. Paso 4: En caso de que nos pregunte sobre incluir archivos multimedia, responder según interés. Paso 5: Al salir el modo de exportación (BT, Mail, etc), seleccionar GMail. Paso 6: Se generará un email que llevará como fichero adjunto el txt del chat exportado.
 
