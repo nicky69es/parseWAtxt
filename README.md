@@ -1,4 +1,4 @@
-parseWAtxt
+# parseWAtxt
 Create a report with the contents of WhatsApp conversations extracted in .txt files
 
 Este programa crea un informe con el contenido de los archivos "txt" que crea la extracción de las conversaciones en Whatsapp. Busca los archivos de conversaciones dentro de un directorio, calcula su hash sha256 e incluye en el informe
